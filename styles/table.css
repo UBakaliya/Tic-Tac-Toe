@@ -47,6 +47,8 @@ h2 {
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
+    border-radius: 10%;
+    margin-top: -20px;
 }
 
 .player-turn {
@@ -67,4 +69,7 @@ button {
 
 button:hover {
     background-color: #d5d5d5;
+}
+.playing-table button {
+    font-size: 30px;
 }
