@@ -68,6 +68,7 @@ const validMoveCheck = (player) => {
   // check diagonal 2
   moveCheck(btn3, btn5, btn7, player) && disabledAllBtns(randPlayerTurn);
 }
+
 // Update the table on clicks
 const btnClick = (ele) => {
   if (randPlayerTurn === 1) {
