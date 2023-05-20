@@ -7,6 +7,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/styles/table.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <title>Tic Tac Toe (1 VS 1)</title>
     </head>
     <body>
@@ -14,25 +17,36 @@
             <h2>1 VS 1</h2>
             <p>PLAYER 1: <span id="player1-symbol" class="p1-symbol"></span></p>
             <p>PLAYER 2: <span id="player2-symbol" class="p2-symbol"></span></p>
-            <form action="/pages/1vs1.html">
-                <button type="submit" class="rest-btn">Rest</button>
-            </form>
         </div>
 
         <div class="playing-table">
-            <div class="player-turn">Turn: <span id="turn"></span></div>
-            <div>
-                <button id="btn1">_</button>
-                <button id="btn2">_</button>
-                <button id="btn3">_</button>
-                <button id="btn4">_</button>
-                <button id="btn5">_</button>
-                <button id="btn6">_</button>
-                <button id="btn7">_</button>
-                <button id="btn8">_</button>
-                <button id="btn9">_</button>
+            <div class="player-turn">
+                <span id="turnText">Turn:</span>
+                <span id="turn"></span>
             </div>
+
+            <button id="btn1">_</button>
+            <button id="btn2">_</button>
+            <button id="btn3">_</button>
+
+            <button id="btn4">_</button>
+            <button id="btn5">_</button>
+            <button id="btn6">_</button>
+            <button id="btn7">_</button>
+            <button id="btn8">_</button>
+            <button id="btn9">_</button>
         </div>
-        <script src="/js/app.js"></script>
+        <div class="below-btns">
+            <form action="/pages/1vs1.html">
+                <button class="btn" type="submit">&#x21bb;</button>
+            </form>
+            <form action="/main.html">
+                <button class="btn" type="submit">
+                    <i style="font-size: 24px" class="fa">&#xf015;</i>
+                </button>
+            </form>
+        </div>
+
+        <script src="/js/players.js"></script>
     </body>
 </html>
