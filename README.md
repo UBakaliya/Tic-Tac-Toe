@@ -1,4 +1,4 @@
-# Tic Tac Toe 
+# [Tic Tac Toe](https://ubakaliya.github.io/Tic-Tac-Toe/).
 
 This is a simple Tic Tac Toe game built as a website that allows players to play against each other or against the computer.
 
